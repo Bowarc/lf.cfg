@@ -1,4 +1,4 @@
-
+set shell powershell
 set promptfmt "
 \033[38;2;35;38;39;48;2;202;31;31m
 \033[38;2;202;31;31;48;2;40;47;62m
@@ -21,3 +21,5 @@ map v paste
 map <esc> clear
 
 map . set hidden!
+
+set previewer ~/AppData/local/lf/pv.bat // Yes i use windows :)
