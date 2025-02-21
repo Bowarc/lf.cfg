@@ -1,4 +1,5 @@
-set shell powershell
+set shell fish
+set shellopts '--no-config'
 set promptfmt "
 \033[38;2;35;38;39;48;2;202;31;31m
 \033[38;2;202;31;31;48;2;40;47;62m
@@ -7,8 +8,8 @@ set promptfmt "
 \033[38;2;255;255;255m %f 
 \033[;38;2;58;67;89;49m\033[m"
 
-set waitmsg "\033[1;31m⏎\033[m"
-set cursorpreviewfmt "\033[7m"
+# set waitmsg "\033[1;31m⏎\033[m"
+# set cursorpreviewfmt "\033[7m"
 
 set wrapscroll
 
@@ -22,4 +23,5 @@ map <esc> clear
 
 map . set hidden!
 
-set previewer ~/AppData/local/lf/pv.bat // Yes i use windows :)
+set cleaner ~/.config/lf/cleaner
+set previewer ~/.config/lf/previewer
