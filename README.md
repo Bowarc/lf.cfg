@@ -7,10 +7,7 @@ scoop install lf
 ~/.config/lf/  
 https://github.com/gokcehan/lf/blob/master/doc.md#configuration
 
-## Wrapper
-Put the file in your path, make sure it's an executable  
-
-## Dependencies
+## Dependencies (i don't think they're needed anymore)
 - ueberzug (https://github.com/jstkdng/ueberzugpp)  
 - exiftool (sudo dnf install perl-Image-ExifTool.noarch)  
 - atool    (sudo dnf install atool)  
