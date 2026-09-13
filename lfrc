@@ -23,5 +23,4 @@ map <esc> clear
 
 map . set hidden!
 
-set cleaner ~/.config/lf/cleaner
 set previewer ~/.config/lf/previewer
